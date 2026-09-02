@@ -14,7 +14,8 @@ Code and won't work without it. (There is a weaker fallback at the bottom of thi
 
 ## Step 2 — install the skill
 
-Copy the `diagnose-defect` folder into your personal skills directory:
+From inside the unzipped or cloned folder (the one containing this file), copy the inner
+`diagnose-defect` folder into your personal skills directory:
 
     mkdir -p ~/.claude/skills
     cp -r diagnose-defect ~/.claude/skills/

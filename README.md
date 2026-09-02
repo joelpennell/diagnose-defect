@@ -3,7 +3,8 @@
 A tool for turning "this sometimes doesn't work and nobody knows why" into a diagnosis with a
 tested fix.
 
-You give it the discussion where people described the problem, plus access to the code. It
+You give it the record of people describing the problem, whether that is a chat thread, a
+ticket, an email or a bug report, plus access to the code. It
 works out what is actually being asked, finds the mechanism, proves it by running code rather
 than by reasoning about it, counts how many other cases are affected, proposes a fix, and runs a
 before-and-after test showing the fix works and does not break what the original code intended.
